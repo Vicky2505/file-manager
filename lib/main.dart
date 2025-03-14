@@ -1,3 +1,4 @@
+import 'package:file_manager_app/screens/on_boarding_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +16,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: BottomAppBar(),
+      home: OnBoardingScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
