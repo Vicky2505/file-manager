@@ -12,11 +12,12 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.transparent,
       body: Container(
+        width: double.infinity,
+        height: double.infinity,
         decoration: const BoxDecoration(
           gradient: LinearGradient(
-            colors: [Color(0xFF7B4DFF), Color(0xFFB266FF)],
+            colors: [Color(0xFF9D79FF), Color(0xFF7747FD)],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
           ),
@@ -24,7 +25,6 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Spacer(),
             Stack(
               alignment: Alignment.center,
               children: [
@@ -37,8 +37,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                   left: 20,
                   child: Image.asset(
                     'images/onboard_assets/document.png',
-                    width: 40,
-                    height: 200,
+                    width: 50,
                   ),
                 ),
                 Positioned(
@@ -46,7 +45,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                   right: 30,
                   child: Image.asset(
                     'images/onboard_assets/picture.png',
-                    width: 40,
+                    width: 50,
                   ),
                 ),
                 Positioned(
@@ -54,7 +53,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                   left: 90,
                   child: Image.asset(
                     'images/onboard_assets/video.png',
-                    width: 40,
+                    width: 50,
                   ),
                 ),
                 Positioned(
@@ -62,7 +61,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                   right: 70,
                   child: Image.asset(
                     'images/onboard_assets/music.png',
-                    width: 40,
+                    width: 50,
                   ),
                 ),
               ],
@@ -72,7 +71,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
               "Manage your files\nin a simple way",
               textAlign: TextAlign.center,
               style: GoogleFonts.poppins(
-                fontSize: 22,
+                fontSize: 24,
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
               ),
@@ -86,7 +85,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                 color: Colors.white70,
               ),
             ),
-            const Spacer(),
+            const SizedBox(height: 80),
             GestureDetector(
               onTap: () {},
               child: Container(
@@ -94,7 +93,11 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                 height: 80,
                 decoration: const BoxDecoration(
                   shape: BoxShape.circle,
-                  color: Color(0xFFFF6CFB),
+                  gradient: LinearGradient(
+                    colors: [Color(0xFFFF6CFB), Color(0xFFFF94FB)],
+                    begin: Alignment.topLeft,
+                    end: Alignment.bottomRight,
+                  ),
                   boxShadow: [
                     BoxShadow(
                       color: Colors.white24,
@@ -110,7 +113,6 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                 ),
               ),
             ),
-            const SizedBox(height: 50),
           ],
         ),
       ),
