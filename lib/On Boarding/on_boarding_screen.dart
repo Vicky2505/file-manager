@@ -1,3 +1,4 @@
+import 'package:file_manager_app/screens/bottom_nav.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -93,7 +94,14 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
             ),
             const SizedBox(height: 68),
             GestureDetector(
-              onTap: () {},
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => BottomNav(),
+                  ),
+                );
+              },
               child: Stack(
                 alignment: Alignment.center,
                 children: [

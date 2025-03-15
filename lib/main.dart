@@ -1,4 +1,4 @@
-import 'package:file_manager_app/On%20Boarding/on_boarding_screen.dart';
+import 'package:file_manager_app/on%20boarding/on_boarding_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
