@@ -1,4 +1,4 @@
-import 'package:file_manager_app/screens/on_boarding_screen.dart';
+import 'package:file_manager_app/On%20Boarding/on_boarding_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'File Manager',
+      title: 'File Manager App',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
