@@ -78,6 +78,8 @@ flutter:
     - images/home_assets/video_icon.png
     - images/home_assets/music_icon.png
     - images/home_assets/competitive_analysis_icon.png
+  # File Screen
+    - images/file_assets/folder_icons.png  
   # Cloud Screen
     - images/cloud_assets/homework.png
     - images/cloud_assets/research.png 
