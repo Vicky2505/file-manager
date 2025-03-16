@@ -1,16 +1,29 @@
-# file_manager_app
+# 📂 File Manager App
 
-A new Flutter project.
+A **Flutter-powered** File Manager app with a modern and intuitive UI. Easily manage your files, navigate through directories, and store your data securely.
 
-## Getting Started
+## 🚀 Features:
+- 📁 **Organized File & Folder Management**
+- 🔍 **Advanced Search & Filter Options**
+- ☁️ **Cloud Storage Integration**
+- ⚡ **Smooth & Responsive UI**
+- 🔒 **Secure File Encryption & Access Control**
 
-This project is a starting point for a Flutter application.
+## 📷 App Preview:
+![File Manager App Preview](https://github.com/Vicky2505/file_manager/blob/main/images/file%20manager%20app%20preview.jpg?raw=true)
 
-A few resources to get you started if this is your first Flutter project:
+## 📥 Installation & Setup
+Follow these simple steps to get started:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```sh
+# Clone the repository
+git clone https://github.com/Vicky2505/file_manager.git
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Navigate to the project folder
+cd file_manager
+
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run
