@@ -154,7 +154,12 @@ class _HomeScreenState extends State<HomeScreen> {
                 borderRadius: BorderRadius.circular(16),
                 boxShadow: [
                   BoxShadow(
-                      color: Colors.black12, blurRadius: 5, spreadRadius: 2)
+                    // ignore: deprecated_member_use
+                    color: Colors.black.withOpacity(0.1),
+                    spreadRadius: 0,
+                    blurRadius: 10,
+                    offset: Offset(0, 10),
+                  ),
                 ],
               ),
               child: Row(

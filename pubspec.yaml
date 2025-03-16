@@ -81,8 +81,10 @@ flutter:
   # File Screen
     - images/file_assets/folder_icons.png  
   # Cloud Screen
+    - images/cloud_assets/cloud_storage_container.png
+    - images/cloud_assets/up_arrow_icon.png
     - images/cloud_assets/homework.png
-    - images/cloud_assets/research.png 
+    - images/cloud_assets/research.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
